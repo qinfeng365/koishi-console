@@ -37,5 +37,8 @@ report.*.json
 .vscode
 *.suo
 *.ntvs*
+
+# Keep the npm lockfile for standalone CI installs.
+!package-lock.json
 *.njsproj
 *.sln
